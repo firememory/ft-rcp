@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{586A85AA-8C14-4A43-BE1A-E5C418E969BF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Hundsun.Framework.Client</RootNamespace>
+    <AssemblyName>Hundsun.Framework.Client</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\Hundsun.UI\Hundsun.Framework.Platform\bin\Debug\AddIns\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\Hundsun.UI\Hundsun.Framework.Platform\bin\Release\AddIns\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Hundsun.Framework.AddIn, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Hundsun.Frame\Hundsun.Framework.AddIn.dll</HintPath>
+    </Reference>
+    <Reference Include="Hundsun.Framework.AddIn.WinForms, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Hundsun.Frame\Hundsun.Framework.AddIn.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Hundsun.Framework.Communication, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Hundsun.Frame\Hundsun.Framework.Communication.dll</HintPath>
+    </Reference>
+    <Reference Include="Hundsun.Framework.Entity, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Hundsun.Frame\Hundsun.Framework.Entity.dll</HintPath>
+    </Reference>
+    <Reference Include="Hundsun.Framework.HSControls, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Hundsun.Frame\Hundsun.Framework.HSControls.dll</HintPath>
+    </Reference>
+    <Reference Include="Hundsun.Framework.IoC, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Hundsun.Frame\Hundsun.Framework.IoC.dll</HintPath>
+    </Reference>
+    <Reference Include="Hundsun.Framework.MVP, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Hundsun.Frame\Hundsun.Framework.MVP.dll</HintPath>
+    </Reference>
+    <Reference Include="Hundsun.Framework.MVP.WinForms, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Hundsun.Frame\Hundsun.Framework.MVP.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Hundsun.Framework.UIFrame, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Hundsun.Frame\Hundsun.Framework.UIFrame.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.SQLite, Version=1.0.66.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Hundsun.Frame\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Runtime.Caching" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ClientWorkItem.cs" />
+    <Compile Include="Communication.cs" />
+    <Compile Include="Custom\FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Custom\FormLogin.designer.cs">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Custom\MessageDisplay\FormMsgDisplayer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Custom\MessageDisplay\FormMsgDisplayer.designer.cs">
+      <DependentUpon>FormMsgDisplayer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Custom\MessageDisplay\IMessageDisplayer.cs" />
+    <Compile Include="Custom\MessageDisplay\MsgStatus.cs" />
+    <Compile Include="FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPassword.designer.cs">
+      <DependentUpon>FormPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormScreen.Designer.cs">
+      <DependentUpon>FormScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FuncInfo.cs" />
+    <Compile Include="GenericIdentity.cs" />
+    <Compile Include="IBusiness.cs" />
+    <Compile Include="Tools\LockToolStripItem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Tools\LockToolStripItem.Designer.cs">
+      <DependentUpon>LockToolStripItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginController.cs" />
+    <Compile Include="Tools\LoginToolStripItem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Tools\LoginToolStripItem.Designer.cs">
+      <DependentUpon>LoginToolStripItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\LogoutToolStripItem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Tools\LogoutToolStripItem.Designer.cs">
+      <DependentUpon>LogoutToolStripItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HsIdentity.cs" />
+    <Compile Include="MenuInfo.cs" />
+    <Compile Include="MessageDisplay\FormMsgDisplayer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools\PasswordToolStripItem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Tools\PasswordToolStripItem.Designer.cs">
+      <DependentUpon>PasswordToolStripItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.en.Designer.cs">
+      <DependentUpon>Resources.en.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="ScreenWorkItem.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Custom\FormLogin.en.resx">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Custom\FormLogin.resx">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Custom\MessageDisplay\FormMsgDisplayer.resx">
+      <DependentUpon>FormMsgDisplayer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPassword.resx">
+      <DependentUpon>FormPassword.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormScreen.resx">
+      <DependentUpon>FormScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\LockToolStripItem.en.resx">
+      <DependentUpon>LockToolStripItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\LockToolStripItem.resx">
+      <DependentUpon>LockToolStripItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\LoginToolStripItem.en.resx">
+      <DependentUpon>LoginToolStripItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\LoginToolStripItem.resx">
+      <DependentUpon>LoginToolStripItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\LogoutToolStripItem.en.resx">
+      <DependentUpon>LogoutToolStripItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\LogoutToolStripItem.resx">
+      <DependentUpon>LogoutToolStripItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.en.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.en.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\updateOK2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\updateCancel1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\updateCancel2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\updateOK1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settingleave.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settinghover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KeyBoardLeave.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leave.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enter.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

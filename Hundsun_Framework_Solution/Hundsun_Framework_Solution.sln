@@ -1,0 +1,118 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hundsun.AddIns", "Hundsun.AddIns", "{5B6731C3-D5B6-4AEF-A9D3-AC4B227E008D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hundsun.Frame", "Hundsun.Frame", "{FDC6EAEE-4F95-47AD-906A-316944BBAB8A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hundsun.UI", "Hundsun.UI", "{C4DBF150-7024-40C6-B5BC-D23033AAC974}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "T2", "T2", "{9932DD01-3A59-4D3F-AA07-4478BCB7AC07}"
+	ProjectSection(SolutionItems) = preProject
+		Hundsun.Frame\license.dat = Hundsun.Frame\license.dat
+		Hundsun.Frame\msvcp100.dll = Hundsun.Frame\msvcp100.dll
+		Hundsun.Frame\msvcp100d.dll = Hundsun.Frame\msvcp100d.dll
+		Hundsun.Frame\msvcr100.dll = Hundsun.Frame\msvcr100.dll
+		Hundsun.Frame\msvcr100_clr0400.dll = Hundsun.Frame\msvcr100_clr0400.dll
+		Hundsun.Frame\msvcr100d.dll = Hundsun.Frame\msvcr100d.dll
+		Hundsun.Frame\t2sdk.dll = Hundsun.Frame\t2sdk.dll
+		Hundsun.Frame\t2sdk.ini = Hundsun.Frame\t2sdk.ini
+		Hundsun.Frame\t2sdkEx.dll = Hundsun.Frame\t2sdkEx.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hundsun.Framework.Platform", "Hundsun.UI\Hundsun.Framework.Platform\Hundsun.Framework.Platform.csproj", "{C1E7BF56-069E-45D2-8683-1AB31CDECBCD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Office", "Office", "{B4FAEB53-9A61-44B4-97DF-DB930C104029}"
+	ProjectSection(SolutionItems) = preProject
+		Hundsun.Frame\Microsoft.Office.Interop.Excel.dll = Hundsun.Frame\Microsoft.Office.Interop.Excel.dll
+		Hundsun.Frame\Microsoft.Office.Interop.Word.dll = Hundsun.Frame\Microsoft.Office.Interop.Word.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQLite", "SQLite", "{FB2E8E61-7545-41D5-9EBC-291C2E56D5F3}"
+	ProjectSection(SolutionItems) = preProject
+		Hundsun.Frame\System.Data.SQLite.dll = Hundsun.Frame\System.Data.SQLite.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "H5", "H5", "{986D77C0-AE78-4399-8442-B98162F3FDAC}"
+	ProjectSection(SolutionItems) = preProject
+		Hundsun.Frame\h5api.dll = Hundsun.Frame\h5api.dll
+		Hundsun.Frame\h5apiCharp.dll = Hundsun.Frame\h5apiCharp.dll
+		Hundsun.Frame\h5sdk.xml = Hundsun.Frame\h5sdk.xml
+		Hundsun.Frame\zlib1.dll = Hundsun.Frame\zlib1.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frame", "Frame", "{427887D8-BA3A-4C98-8908-38275D670D17}"
+	ProjectSection(SolutionItems) = preProject
+		Hundsun.Frame\Hundsun.Framework.AddIn.dll = Hundsun.Frame\Hundsun.Framework.AddIn.dll
+		Hundsun.Frame\Hundsun.Framework.AddIn.WinForms.dll = Hundsun.Frame\Hundsun.Framework.AddIn.WinForms.dll
+		Hundsun.Frame\Hundsun.Framework.AddIn.WinForms.XmlSerializers.dll = Hundsun.Frame\Hundsun.Framework.AddIn.WinForms.XmlSerializers.dll
+		Hundsun.Frame\Hundsun.Framework.Communication.dll = Hundsun.Frame\Hundsun.Framework.Communication.dll
+		Hundsun.Frame\Hundsun.Framework.Entity.dll = Hundsun.Frame\Hundsun.Framework.Entity.dll
+		Hundsun.Frame\Hundsun.Framework.HSControls.dll = Hundsun.Frame\Hundsun.Framework.HSControls.dll
+		Hundsun.Frame\Hundsun.Framework.IoC.dll = Hundsun.Frame\Hundsun.Framework.IoC.dll
+		Hundsun.Frame\Hundsun.Framework.MVP.dll = Hundsun.Frame\Hundsun.Framework.MVP.dll
+		Hundsun.Frame\Hundsun.Framework.MVP.WinForms.dll = Hundsun.Frame\Hundsun.Framework.MVP.WinForms.dll
+		Hundsun.Frame\Hundsun.Framework.Tools.dll = Hundsun.Frame\Hundsun.Framework.Tools.dll
+		Hundsun.Frame\Hundsun.Framework.UIFrame.dll = Hundsun.Frame\Hundsun.Framework.UIFrame.dll
+		Hundsun.Frame\Style.xml = Hundsun.Frame\Style.xml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddIns_Demo_View", "Hundsun.AddIns\AddIns_Demo_View\AddIns_Demo_View.csproj", "{F60436D0-A258-43EA-A1CE-B7B35D8E746F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hundsun.Framework.Client", "Hundsun.UI\Hundsun.Framework.Client\Hundsun.Framework.Client.csproj", "{586A85AA-8C14-4A43-BE1A-E5C418E969BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1E7BF56-069E-45D2-8683-1AB31CDECBCD}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{C1E7BF56-069E-45D2-8683-1AB31CDECBCD}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{C1E7BF56-069E-45D2-8683-1AB31CDECBCD}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{C1E7BF56-069E-45D2-8683-1AB31CDECBCD}.Debug|x86.ActiveCfg = Debug|x86
+		{C1E7BF56-069E-45D2-8683-1AB31CDECBCD}.Debug|x86.Build.0 = Debug|x86
+		{C1E7BF56-069E-45D2-8683-1AB31CDECBCD}.Release|Any CPU.ActiveCfg = Release|x86
+		{C1E7BF56-069E-45D2-8683-1AB31CDECBCD}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{C1E7BF56-069E-45D2-8683-1AB31CDECBCD}.Release|Mixed Platforms.Build.0 = Release|x86
+		{C1E7BF56-069E-45D2-8683-1AB31CDECBCD}.Release|x86.ActiveCfg = Release|x86
+		{C1E7BF56-069E-45D2-8683-1AB31CDECBCD}.Release|x86.Build.0 = Release|x86
+		{F60436D0-A258-43EA-A1CE-B7B35D8E746F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F60436D0-A258-43EA-A1CE-B7B35D8E746F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F60436D0-A258-43EA-A1CE-B7B35D8E746F}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{F60436D0-A258-43EA-A1CE-B7B35D8E746F}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{F60436D0-A258-43EA-A1CE-B7B35D8E746F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F60436D0-A258-43EA-A1CE-B7B35D8E746F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F60436D0-A258-43EA-A1CE-B7B35D8E746F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F60436D0-A258-43EA-A1CE-B7B35D8E746F}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{F60436D0-A258-43EA-A1CE-B7B35D8E746F}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{F60436D0-A258-43EA-A1CE-B7B35D8E746F}.Release|x86.ActiveCfg = Release|Any CPU
+		{586A85AA-8C14-4A43-BE1A-E5C418E969BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{586A85AA-8C14-4A43-BE1A-E5C418E969BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{586A85AA-8C14-4A43-BE1A-E5C418E969BF}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{586A85AA-8C14-4A43-BE1A-E5C418E969BF}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{586A85AA-8C14-4A43-BE1A-E5C418E969BF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{586A85AA-8C14-4A43-BE1A-E5C418E969BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{586A85AA-8C14-4A43-BE1A-E5C418E969BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{586A85AA-8C14-4A43-BE1A-E5C418E969BF}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{586A85AA-8C14-4A43-BE1A-E5C418E969BF}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{586A85AA-8C14-4A43-BE1A-E5C418E969BF}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F60436D0-A258-43EA-A1CE-B7B35D8E746F} = {5B6731C3-D5B6-4AEF-A9D3-AC4B227E008D}
+		{9932DD01-3A59-4D3F-AA07-4478BCB7AC07} = {FDC6EAEE-4F95-47AD-906A-316944BBAB8A}
+		{B4FAEB53-9A61-44B4-97DF-DB930C104029} = {FDC6EAEE-4F95-47AD-906A-316944BBAB8A}
+		{FB2E8E61-7545-41D5-9EBC-291C2E56D5F3} = {FDC6EAEE-4F95-47AD-906A-316944BBAB8A}
+		{986D77C0-AE78-4399-8442-B98162F3FDAC} = {FDC6EAEE-4F95-47AD-906A-316944BBAB8A}
+		{427887D8-BA3A-4C98-8908-38275D670D17} = {FDC6EAEE-4F95-47AD-906A-316944BBAB8A}
+		{C1E7BF56-069E-45D2-8683-1AB31CDECBCD} = {C4DBF150-7024-40C6-B5BC-D23033AAC974}
+		{586A85AA-8C14-4A43-BE1A-E5C418E969BF} = {C4DBF150-7024-40C6-B5BC-D23033AAC974}
+	EndGlobalSection
+EndGlobal

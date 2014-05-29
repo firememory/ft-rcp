@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ToolStripObject BackgroundImage="默认toolbar" BackColor="LightGray" xmlns="http://tempuri.org/ToolStripObject.xsd">
+  <Item PersistString="Hundsun.Framework.Tools.dll,Hundsun.Framework.AddIns.ToolStripView" ControlHost="true"/>
+  <Item PersistString="Hundsun.Framework.Tools.dll,Hundsun.Framework.AddIns.CloseDocumentToolStripItem" RightAlignment="true"/>
+  <Item PersistString="Hundsun.Framework.Tools.dll,Hundsun.Framework.AddIns.NextToolStripItem" RightAlignment="true"/>
+  <Item PersistString="Hundsun.Framework.Tools.dll,Hundsun.Framework.AddIns.LastToolStripItem" RightAlignment="true"/>
+  <Item PersistString="Hundsun.Framework.Tools.dll,Hundsun.Framework.AddIns.SeparatorToolStripItem" RightAlignment="true"/>
+  <Item PersistString="Hundsun.Framework.Tools.dll,Hundsun.Framework.AddIns.AddInScaleToolStripButtonItem" RightAlignment="true"/>
+  <Item PersistString="Hundsun.Framework.Tools.dll,Hundsun.Framework.AddIns.SeparatorToolStripItem" RightAlignment="true"/>
+  <Item PersistString="Hundsun.Framework.Tools.dll,Hundsun.Framework.AddIns.LinkageToolStripButtonItem" RightAlignment="true"/>
+  <Item PersistString="Hundsun.Framework.Tools.dll,Hundsun.Framework.AddIns.SeparatorToolStripItem" RightAlignment="true"/>
+  <Item PersistString="Hundsun.Framework.Tools.dll,Hundsun.Framework.AddIns.SearchView" ControlHost="true" RightAlignment="true"/>
+</ToolStripObject>

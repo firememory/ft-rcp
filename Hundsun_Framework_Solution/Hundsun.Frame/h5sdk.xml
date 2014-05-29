@@ -1,0 +1,37 @@
+<?xml  version="1.0" encoding="GBK"?>
+<supportmkt supportmkttypes="0x101,0x102,0x201,0x303,0x304,0x306,0x307"> 
+  <market mktname="上海L1" mkttype="0x101" user="maoyj1" password="maoyj1">
+    <!--<svraddr svrip="115.238.20.150"  svrport="9999"/>-->
+    <svraddr svrip="112.124.211.83"  svrport="443"/>
+  </market>
+  <market mktname="上海L2" mkttype="0x201" user="maoyj1" password="maoyj1">
+    <!--<svraddr svrip="115.238.20.150"  svrport="9999"/>-->
+    <svraddr svrip="112.124.211.83"  svrport="443"/>
+  </market>
+  <market mktname="深圳L1" mkttype="0x102" user="maoyj1" password="maoyj1">
+    <!--<svraddr svrip="115.238.20.150"  svrport="9999"/>-->
+    <svraddr svrip="112.124.211.83"  svrport="443"/>
+  </market>
+  <!--<market mktname="深圳L2" mkttype="0x202" user="maoyj1" password="maoyj1">
+    <svraddr svrip="115.238.20.150"  svrport="9999"/>
+  </market>-->
+  <market mktname="中金所期货" mkttype="0x303" user="maoyj1" password="maoyj1">
+    <!--<svraddr svrip="115.238.20.150"  svrport="9999"/>-->
+    <svraddr svrip="112.124.211.83"  svrport="443"/>
+  </market>
+  <market mktname="上海期货交易所" mkttype="0x304" user="maoyj1" password="maoyj1">
+    <!--<svraddr svrip="115.238.20.150"  svrport="9999"/>-->
+    <svraddr svrip="112.124.211.83"  svrport="443"/>
+  </market>
+  <!--<market mktname="大连商品交易所" mkttype="0x305" user="maoyj1" password="maoyj1">
+		<svraddr svrip="115.238.20.150"  svrport="9999"/>
+	</market>-->
+  <market mktname="郑州商品交易所" mkttype="0x306" user="maoyj1" password="maoyj1">
+    <!--<svraddr svrip="115.238.20.150"  svrport="9999"/>-->
+    <svraddr svrip="112.124.211.83"  svrport="443"/>
+  </market>
+  <market mktname="上海黄金交易所" mkttype="0x307" user="maoyj1" password="maoyj1">
+    <!--<svraddr svrip="115.238.20.150"  svrport="9999"/>-->
+    <svraddr svrip="112.124.211.83"  svrport="443"/>
+  </market>  
+</supportmkt>
