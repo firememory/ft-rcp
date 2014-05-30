@@ -1,4 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<Executer xmlns="http://tempuri.org/Executer.xsd">
-  <Item Key="Client" PersistString="Hundsun.Framework.Client.dll,Hundsun.Framework.Client.ClientWorkItem"/>
-</Executer>

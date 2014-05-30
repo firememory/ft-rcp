@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<ToolStripObject BackColor="LightGray" BackgroundImage="toolbar" xmlns="http://tempuri.org/ToolStripObject.xsd">
-  <Item PersistString="Hundsun.Framework.Tools.dll,Hundsun.Framework.AddIns.WorkSpaceView" ControlHost="true"/>
-</ToolStripObject>
