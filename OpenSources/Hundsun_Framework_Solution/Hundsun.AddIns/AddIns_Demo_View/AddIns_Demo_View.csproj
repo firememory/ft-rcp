@@ -59,6 +59,9 @@
     <Reference Include="Hundsun.Framework.MVP.WinForms">
       <HintPath>..\..\Hundsun.Frame\Hundsun.Framework.MVP.WinForms.dll</HintPath>
     </Reference>
+    <Reference Include="Hundsun.Framework.Office">
+      <HintPath>..\..\Hundsun.Frame\Hundsun.Framework.Office.dll</HintPath>
+    </Reference>
     <Reference Include="Hundsun.Framework.UIFrame">
       <HintPath>..\..\Hundsun.Frame\Hundsun.Framework.UIFrame.dll</HintPath>
     </Reference>

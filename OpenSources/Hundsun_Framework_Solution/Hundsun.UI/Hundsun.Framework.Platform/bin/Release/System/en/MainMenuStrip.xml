@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Navigation BackgroundImage="默认menu" ForeColor="Coral" xmlns="http://tempuri.org/Navigation.xsd">
+  <Item Label="Function(&amp;F)">
+    <Item Label="Demo" CommandID="3" CommandType="2" FunctionID="1,2,3,4,5" ShortcutKeys="Shift+Control+B" IconName="exchange" CommandName="演示:客户信息管理"></Item>
+  </Item>
+  <Item Label="Settings(&amp;S)">
+    <Item Label="WorkSpace" CommandType="3" CommandName="Hundsun.Framework.Tools.dll,Hundsun.Framework.AddIns.AddInToolStripItem"></Item>
+    <Item Label="-"></Item>
+    <Item Label="Language" CommandType="3" CommandName="Hundsun.Framework.Tools.dll,Hundsun.Framework.AddIns.LanguageToolStripItem"></Item>
+    <Item Label="Skin" CommandType="3" CommandName="Hundsun.Framework.Tools.dll,Hundsun.Framework.AddIns.SkinToolStripItem"></Item>
+    <Item Label="-"></Item>
+    <Item Label="Update Password" CommandType="3" CommandName="Hundsun.Framework.Client.dll,Hundsun.Framework.AddIns.PasswordToolStripItem"></Item>
+    <Item Label="Lock" CommandType="3" CommandName="Hundsun.Framework.Client.dll,Hundsun.Framework.AddIns.LockToolStripItem"></Item>
+    <Item Label="UnLock" CommandType="3" CommandName="Hundsun.Framework.Client.dll,Hundsun.Framework.AddIns.LoginToolStripItem"></Item>
+    <Item Label="Logout" CommandType="3" CommandName="Hundsun.Framework.Client.dll,Hundsun.Framework.AddIns.LogoutToolStripItem"></Item>
+    <Item Label="-"></Item>
+    <Item Label="Exit" CommandType="3" CommandName="Hundsun.Framework.Tools.dll,Hundsun.Framework.AddIns.QuitToolStripMenuItem"></Item>
+  </Item>
+  <Item Label="Help(&amp;H)">
+    <Item Label="About" CommandType="3" CommandName="Hundsun.Framework.Tools.dll,Hundsun.Framework.AddIns.AboutToolStripMenuItem"></Item>
+  </Item>
+</Navigation>

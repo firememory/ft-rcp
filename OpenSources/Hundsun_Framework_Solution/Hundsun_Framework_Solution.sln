@@ -35,7 +35,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQLite", "SQLite", "{FB2E8E
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "H5", "H5", "{986D77C0-AE78-4399-8442-B98162F3FDAC}"
 	ProjectSection(SolutionItems) = preProject
-		Hundsun.Frame\h5api.dll = Hundsun.Frame\h5api.dll
 		Hundsun.Frame\h5apiCharp.dll = Hundsun.Frame\h5apiCharp.dll
 		Hundsun.Frame\zlib1.dll = Hundsun.Frame\zlib1.dll
 	EndProjectSection
@@ -51,6 +50,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frame", "Frame", "{427887D8
 		Hundsun.Frame\Hundsun.Framework.IoC.dll = Hundsun.Frame\Hundsun.Framework.IoC.dll
 		Hundsun.Frame\Hundsun.Framework.MVP.dll = Hundsun.Frame\Hundsun.Framework.MVP.dll
 		Hundsun.Frame\Hundsun.Framework.MVP.WinForms.dll = Hundsun.Frame\Hundsun.Framework.MVP.WinForms.dll
+		Hundsun.Frame\Hundsun.Framework.Office.dll = Hundsun.Frame\Hundsun.Framework.Office.dll
 		Hundsun.Frame\Hundsun.Framework.Tools.dll = Hundsun.Frame\Hundsun.Framework.Tools.dll
 		Hundsun.Frame\Hundsun.Framework.UIFrame.dll = Hundsun.Frame\Hundsun.Framework.UIFrame.dll
 		Hundsun.Frame\Style.xml = Hundsun.Frame\Style.xml

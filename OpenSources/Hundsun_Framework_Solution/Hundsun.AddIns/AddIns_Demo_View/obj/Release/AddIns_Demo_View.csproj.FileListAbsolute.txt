@@ -1,0 +1,12 @@
+C:\Users\wanghy06305\Documents\GitHub\ft-rcp\OpenSources\Hundsun_Framework_Solution\Hundsun.UI\Hundsun.Framework.Platform\bin\Release\AddIns\AddIns_Demo_View.dll
+C:\Users\wanghy06305\Documents\GitHub\ft-rcp\OpenSources\Hundsun_Framework_Solution\Hundsun.UI\Hundsun.Framework.Platform\bin\Release\AddIns\AddIns_Demo_View.pdb
+C:\Users\wanghy06305\Documents\GitHub\ft-rcp\OpenSources\Hundsun_Framework_Solution\Hundsun.UI\Hundsun.Framework.Platform\bin\Release\AddIns\en\AddIns_Demo_View.resources.dll
+C:\Users\wanghy06305\Documents\GitHub\ft-rcp\OpenSources\Hundsun_Framework_Solution\Hundsun.AddIns\AddIns_Demo_View\obj\Release\AddIns_Demo_View.csprojResolveAssemblyReference.cache
+C:\Users\wanghy06305\Documents\GitHub\ft-rcp\OpenSources\Hundsun_Framework_Solution\Hundsun.AddIns\AddIns_Demo_View\obj\Release\Hundsun.Framework.AddIns.Properties.Resources.resources
+C:\Users\wanghy06305\Documents\GitHub\ft-rcp\OpenSources\Hundsun_Framework_Solution\Hundsun.AddIns\AddIns_Demo_View\obj\Release\Hundsun.Framework.AddIns.DemoCustomerDetailForm.resources
+C:\Users\wanghy06305\Documents\GitHub\ft-rcp\OpenSources\Hundsun_Framework_Solution\Hundsun.AddIns\AddIns_Demo_View\obj\Release\Hundsun.Framework.AddIns.DemoCustomerView.resources
+C:\Users\wanghy06305\Documents\GitHub\ft-rcp\OpenSources\Hundsun_Framework_Solution\Hundsun.AddIns\AddIns_Demo_View\obj\Release\Hundsun.Framework.AddIns.Properties.Resources.en.resources
+C:\Users\wanghy06305\Documents\GitHub\ft-rcp\OpenSources\Hundsun_Framework_Solution\Hundsun.AddIns\AddIns_Demo_View\obj\Release\AddIns_Demo_View.csproj.GenerateResource.Cache
+C:\Users\wanghy06305\Documents\GitHub\ft-rcp\OpenSources\Hundsun_Framework_Solution\Hundsun.AddIns\AddIns_Demo_View\obj\Release\en\AddIns_Demo_View.resources.dll
+C:\Users\wanghy06305\Documents\GitHub\ft-rcp\OpenSources\Hundsun_Framework_Solution\Hundsun.AddIns\AddIns_Demo_View\obj\Release\AddIns_Demo_View.dll
+C:\Users\wanghy06305\Documents\GitHub\ft-rcp\OpenSources\Hundsun_Framework_Solution\Hundsun.AddIns\AddIns_Demo_View\obj\Release\AddIns_Demo_View.pdb

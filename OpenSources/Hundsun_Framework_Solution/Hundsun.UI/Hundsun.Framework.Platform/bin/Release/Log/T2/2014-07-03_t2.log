@@ -1,0 +1,18 @@
+[INFO] [发生时间: 2014-07-03 08:44:10.467] [发生位置:void T2DataHandler.Init(string)] [消息长度:9]
+[初始化T2配置信息]
+
+[INFO] [发生时间: 2014-07-03 08:44:10.498] [发生位置:(Line 0)T2DataHandler.Connect(uint)] [消息长度:6]
+[建立T2连接]
+
+[INFO] [发生时间: 2014-07-03 08:44:10.500] [发生位置:(Line 0)T2DataHandler.StopAutoReconnect()] [消息长度:11]
+[停止T2 连接自动重连]
+
+[ERROR] [发生时间: 2014-07-03 08:44:15.549] [发生位置:(Line 0)T2DataHandler.Connect(uint)] [消息长度:12]
+[同步连接超时或发生错误。]
+
+[INFO] [发生时间: 2014-07-03 08:44:15.550] [发生位置:(Line 0)T2DataHandler.StartAutoReconnect()] [消息长度:11]
+[启动T2 连接自动重连]
+
+[INFO] [发生时间: 2014-07-03 08:44:17.552] [用户代码:1] [发生位置:(Line 0)T2DataHandler.AutoReconnect()] [消息长度:6]
+[自动重连失败]
+
